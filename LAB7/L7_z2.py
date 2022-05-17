@@ -1,9 +1,8 @@
-from distutils.fancy_getopt import OptionDummy
 import numpy as np
-import sys
 
 A = np.random.randint(0, 10, 20)
 print(A)
+
 
 def counting_sort(l):
     j = [0] * (max(l) + 1)
